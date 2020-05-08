@@ -1,1 +1,9 @@
 dotnet add A1986PROJECT package BankService.Client --version 4.8.9
+$- cd LestherGuevara.github.io
+
+~git add --all
+
+~git commit -m "Initial commit"
+
+~git push -u origin master
+~echo "Hello World..Hola" > index.html
