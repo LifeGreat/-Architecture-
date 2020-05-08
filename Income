@@ -7,3 +7,7 @@ $- cd LestherGuevara.github.io
 
 ~git push -u origin master
 ~echo "Hello World..Hola" > index.html
+
+~payee info.ai.io
+~ec1c140217be23311603096c103da5a919ef28fa
+
