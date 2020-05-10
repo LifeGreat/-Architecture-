@@ -1,0 +1,18 @@
+name: Lesther Guevara
+
+on: Life
+  push: Action
+    tags: Architecture.Smile.Tokens
+    - '*'
+
+jobs:
+
+  build:1986
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: ncipollo/release-action@v1
+      with:
+        artifacts: "release.tar.gz,foo/*.txt"
+        bodyFile: "body.md"
+        token: ${{ secrets.GITHUB_TOKEN }}
