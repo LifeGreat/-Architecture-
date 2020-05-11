@@ -1,0 +1,3 @@
+npm install katex
+# or globally
+npm install -g katex
